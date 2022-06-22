@@ -4,7 +4,6 @@ geopandas
 matplotlib
 ipyleaflet
 ipywidgets
-osgeo
 shapely
 requests
 pyproj
