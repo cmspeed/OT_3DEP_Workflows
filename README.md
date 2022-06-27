@@ -1,5 +1,5 @@
-# OpenTopography Programmatic Access to USGS 3DEP Data
-This repository contains Python workflows for programmatically accessing, processing, and visualizing 3D Elevation Program (3DEP) data and creating derivative products (DSM/DTM/CHM) in Jupyter Notebook format.
+# Workflows for Programmatically Accessing, Processing, and Visualizing USGS 3DEP Data
+This repository contains Python workflows for programmatically accessing, processing, and visualizing 3D Elevation Program (3DEP) data and creating derivative products (DSM/DTM/CHM) in Jupyter Notebook format. The notebooks are designed to run with no user modification, but can be customized for specific use cases. Please direct questions or comments related to these workflows to Cole Speed (<cole.speed@beg.utexas.edu>).
 
 The notebooks contained in this repository are:
 
