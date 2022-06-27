@@ -3,11 +3,11 @@ This repository contains Python workflows for programmatically accessing, proces
 
 Jupyter Notebooks/Workflows:
 
-1. [3DEP point cloud access, processing, and DTM/DSM creation/visualization for user-defined AOI](https://github.com/cmspeed/OT_3DEP_Workflows/blob/main/notebooks/3DEP_pointcloud_access_processing_DTM_creation.ipynb)
+1. [3DEP point cloud access, processing, and DTM/DSM creation/visualization for user-defined AOI](https://github.com/cmspeed/OT_3DEP_Workflows/blob/main/notebooks/3DEP_pointcloud_access_processing_DTM_creation.ipynb)<br/>
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/cmspeed/OT_3DEP_Workflows/blob/main/notebooks/3DEP_pointcloud_access_processing_DTM_creation.ipynb)
 
-2. [3DEP point cloud access, processing, and DTM/DSM creation/visualization for USGS 7.5' Quadrangles](https://github.com/cmspeed/OT_3DEP_Workflows/blob/main/notebooks/Programmatically_accessing_3DEP_data_using_USGS_7.5_Quadrangles.ipynb)
+2. [3DEP point cloud access, processing, and DTM/DSM creation/visualization for USGS 7.5' Quadrangles](https://github.com/cmspeed/OT_3DEP_Workflows/blob/main/notebooks/Programmatically_accessing_3DEP_data_using_USGS_7.5_Quadrangles.ipynb)<br/>
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/cmspeed/OT_3DEP_Workflows/blob/main/notebooks/Programmatically_accessing_3DEP_data_using_USGS_7.5_Quadrangles.ipynb)
 
-3. [Build a Canopy Height Model with 3DEP data for user-defined AOI](https://github.com/cmspeed/OT_3DEP_Workflows/blob/main/notebooks/Making_a_Canopy_Height_Model_Using_USGS_3DEP_Data.ipynb)
+3. [Build a Canopy Height Model with 3DEP data for user-defined AOI](https://github.com/cmspeed/OT_3DEP_Workflows/blob/main/notebooks/Making_a_Canopy_Height_Model_Using_USGS_3DEP_Data.ipynb)<br/>
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/cmspeed/OT_3DEP_Workflows/blob/main/notebooks/Making_a_Canopy_Height_Model_Using_USGS_3DEP_Data.ipynb)
