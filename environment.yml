@@ -1,7 +1,8 @@
-name: 3dep
+name: usgs3dep
 channels:
   - conda-forge
   - defaults
+  - conda-forge/label/broken
 dependencies:
   - appnope=0.1.3=pyhd8ed1ab_0
   - argon2-cffi=21.3.0=pyhd8ed1ab_0
