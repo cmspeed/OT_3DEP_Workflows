@@ -5,7 +5,6 @@ Jupyter Notebooks/Workflows:
 
 1. [3DEP point cloud access, processing, and DTM/DSM creation/visualization for user-defined AOI](https://github.com/cmspeed/OT_3DEP_Workflows/blob/main/notebooks/3DEP_pointcloud_access_processing_DTM_creation.ipynb)<br/>
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/cmspeed/OT_3DEP_Workflows/blob/main/notebooks/3DEP_pointcloud_access_processing_DTM_creation.ipynb)<br/>
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/cmspeed/OT_3DEP_Workflows/main?labpath=notebooks%2F3DEP_pointcloud_access_processing_DTM_creation.ipynb) 
 
 2. [3DEP point cloud access, processing, and DTM/DSM creation/visualization for USGS 7.5' Quadrangles](https://github.com/cmspeed/OT_3DEP_Workflows/blob/main/notebooks/Programmatically_accessing_3DEP_data_using_USGS_7.5_Quadrangles.ipynb)<br/>
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/cmspeed/OT_3DEP_Workflows/blob/main/notebooks/Programmatically_accessing_3DEP_data_using_USGS_7.5_Quadrangles.ipynb)
