@@ -21,18 +21,28 @@ Two options exist for accessing and using these notebooks. (1) Install the requi
 * Pyproj
 * nb_conda
 
-**Option 1: Local Installation and Execution**
+**Option 1 (Suggested): Google Collaboratory Installation and Execution**
+
+For ease-of-use, it is suggested to launch and execute these notebooks on Google Collaboratory (Colab, for short), Google's Cloud Platform. Dependencies will be installed on a virtual machine on Google's cloud servers and the code will be executed directly in your browser! A major benefit of this is that you will have direct access to Google high-end CPU/GPUs and will not have to install any dependencies locally. All deliverables will be saved to your personal Google Drive.
+
+To experiment and run one of the below Jupyter Notebooks on Google Colab click the [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)] badge beneath the corresponding Jupyter notebook. 
+
+**Option 2: Local Installation and Execution**
+
 If you would like to run the Jupyter Notebook on your local machine, execute the following commands in your terminal or commandline (does not vary between MacOS, Linux, or Windows):
 
-Make a new directory where the 3DEP Jupyter Notebooks (and all 3DEP data, if desired) will be saved. Change into directory and clone this Github repository to your local file system.
-	
-	$ mkdir 3DEP 
-	$ cd 3DEP
+Make a new directory where the 3DEP Jupyter Notebooks (and all 3DEP data, if desired) will be saved. In this case, the directory will be called `3DEP`.
+  
+    $ mkdir 3DEP
+
+Change into the new directory and git clone the Github repository containing the Jupyter Notebooks and other relevant files to your local file system.
+
+    $ cd 3DEP
 	$ git clone https://github.com/cmspeed/OT_3DEP_Workflows
 
-It is suggested to use Anaconda. Anaconda installers for MacOS/Linux/Windows can be downloaded from https://docs.anaconda.com/anaconda/install/. Follow the instructions to install the appropriate version of Anaconda.
+Anaconda is recommended for Python package installation and management. Package versions in Anaconda are managed by the package management system *conda*. Anaconda installers for MacOS/Linux/Windows can be downloaded from https://docs.anaconda.com/anaconda/install/. Follow the instructions to install the appropriate version of Anaconda.
 
-After installing Anaconda, create a conda virtual environment with the required dependencies (contained in `environement.yml`). Note exectuting the following command will automatically create the conda environement with name `3dep`. If you would prefer a different name, replace `3dep` to another name in the following command:
+After installing Anaconda, create a conda virtual environment with the required dependencies (contained in `environement.yml`). Note: Exectuting the following command will automatically create the conda environement with name `3dep` and all of the required dependencies installed. If you would prefer a different name, replace `3dep` with another name in the following command:
 
 	$ conda env create -n 3dep --file environment.yml
 
@@ -42,9 +52,6 @@ Activate the conda environment with all of the necessary dependencies installed.
 
 Now, launch the chosen Jupyter Notebook. If unsure how to launch a Notebook, refer to this guide (https://jupyter-notebook-beginner-guide.readthedocs.io/en/latest/execute.html). 
 
-**Option 2: Google Collaboratory Installation and Execution**
-Click the [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)] badge beneath the Jupyter notebook you would like to use. All of the required dependencies will be installed within a Google Colab runtime within the notebook. 
-
 ## USGS 3DEP Jupyter Notebooks
 
 1. [Programmatic USGS 3DEP point cloud access, processing, and DTM/DSM creation/visualization for user-defined AOI](https://github.com/cmspeed/OT_3DEP_Workflows/blob/main/notebooks/3DEP_pointcloud_access_processing_DTM_creation.ipynb)<br/>
@@ -53,13 +60,14 @@ Click the [![Open In Colab](https://colab.research.google.com/assets/colab-badge
 2. [Programmatic USGS 3DEP point cloud access, processing, and DTM/DSM creation/visualization for USGS 7.5' Quadrangles](https://github.com/cmspeed/OT_3DEP_Workflows/blob/main/notebooks/Programmatically_accessing_3DEP_data_using_USGS_7.5_Quadrangles.ipynb)<br/>
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/cmspeed/OT_3DEP_Workflows/blob/main/notebooks/Programmatically_accessing_3DEP_data_using_USGS_7.5_Quadrangles.ipynb)
 
-3. [Programmatic USGS 3DEP point cloud access, processing, and DTM/DSM creation/visualization for USGS Watersheds (12- and 14-digit HUCs)]()
+3. [Programmatic USGS 3DEP point cloud access, processing, and DTM/DSM creation/visualization for USGS Watersheds (12- and 14-digit HUCs)](https://github.com/cmspeed/OT_3DEP_Workflows/blob/main/notebooks/3DEP_data_for_watershedboundaries.ipynb)<br/>
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/cmspeed/OT_3DEP_Workflows/blob/main/notebooks/3DEP_data_for_watershedboundaries.ipynb)
 
 4. [Build a Canopy Height Model with USGS 3DEP data for user-defined AOI](https://github.com/cmspeed/OT_3DEP_Workflows/blob/main/notebooks/Making_a_Canopy_Height_Model_Using_USGS_3DEP_Data.ipynb)<br/>
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/cmspeed/OT_3DEP_Workflows/blob/main/notebooks/Making_a_Canopy_Height_Model_Using_USGS_3DEP_Data.ipynb)
 
-5. [Topographic differencing with USGS 3DEP data for user-defined AOI]()
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)]()
+5. [Topographic differencing with USGS 3DEP data for user-defined AOI](https://github.com/cmspeed/OT_3DEP_Workflows/blob/main/notebooks/Topographic_differencing_3DEP_and_OT_lidar_data.ipynb)<br/>
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/cmspeed/OT_3DEP_Workflows/blob/main/notebooks/Topographic_differencing_3DEP_and_OT_lidar_data.ipynb)
 
-6. [Colorize USGS 3DEP point cloud data with NAIP imagery]()
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)]()
+6. [Colorize USGS 3DEP point cloud data with NAIP imagery](https://github.com/cmspeed/OT_3DEP_Workflows/blob/main/notebooks/colorizePC.ipynb)<br/>
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/cmspeed/OT_3DEP_Workflows/blob/main/notebooks/colorizePC.ipynb)
