@@ -4,5 +4,4 @@ geopandas
 ipyleaflet
 matplotlib
 requests
-gdal
 pyproj
