@@ -79,3 +79,9 @@ Now, launch the chosen Jupyter Notebook. If unsure how to launch a Notebook, ref
 
 6. [Colorize USGS 3DEP point cloud data with NAIP imagery](https://github.com/cmspeed/OT_3DEP_Workflows/blob/main/notebooks/colorizePC.ipynb)<br/>
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/cmspeed/OT_3DEP_Workflows/blob/main/notebooks/colorizePC.ipynb)
+
+## References
+
+[![NSF-1948997](https://img.shields.io/badge/NSF-1948997-blue.svg)](https://nsf.gov/awardsearch/showAward?AWD_ID=1948997) 
+[![NSF-1948994](https://img.shields.io/badge/NSF-1948994-blue.svg)](https://nsf.gov/awardsearch/showAward?AWD_ID=1948994)
+[![NSF-1948857](https://img.shields.io/badge/NSF-1948857-blue.svg)](https://nsf.gov/awardsearch/showAward?AWD_ID=1948857)
