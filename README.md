@@ -6,7 +6,7 @@ The 3D Elevation Program (3DEP), managed by the U.S. Geological Survey (USGS), i
 ## Contents
 This repository contains a suite of Python workflows for programmatically accessing, processing, and visualizing U.S. Geological Survey (USGS) 3D Elevation Program (3DEP) lidar point cloud data and creating derivative products (DEMs, topographic difference maps, colorized point clouds, etc.). The workflows are in Jupyter Notebook format, with each notebook documenting a standalone workflow designed for a specific use-case. This suite of Jupyter Notebooks were developed in collaboration with and funded by the USGS Community for Data Integration (CDI (URL)), and as a result several of the notebooks provide workflows designed to address specific needs of the USGS. However, these workflows are designed for general users of topographic datasets and for those who may not have extensive experience. Each notebook will run with no additional user modification, but can be customized for specific use-cases and based on the user's. Please direct questions, comments, or suggestion related to these workflows to Cole Speed (<cole.speed@beg.utexas.edu>). 
 
-## Dependencies and Depolyment
+## Dependencies and Installation
 Two options exist for accessing and using these notebooks. (1) Install the required Python dependencies, clone, and execute the notebooks locally; or (2) Execute the notebooks on <a href="https://colab.research.google.com/">Google Collaboratory</a>, Google's cloud platform (Requires Google account with Google Drive access).
 
 **Dependencies**
@@ -17,7 +17,6 @@ Two options exist for accessing and using these notebooks. (1) Install the requi
 * Matplotlib
 * python-pdal
 * Requests
-* GDAL
 * Pyproj
 * nb_conda
 
@@ -32,23 +31,32 @@ To experiment and run one of the below Jupyter Notebooks on Google Colab click t
 If you would like to run the Jupyter Notebook on your local machine, execute the following commands in your terminal or commandline (does not vary between MacOS, Linux, or Windows):
 
 Make a new directory where the 3DEP Jupyter Notebooks (and all 3DEP data, if desired) will be saved. In this case, the directory will be called `3DEP`.
-  
-    $ mkdir 3DEP
+
+
+```bash
+mkdir 3DEP
+```
 
 Change into the new directory and git clone the Github repository containing the Jupyter Notebooks and other relevant files to your local file system.
 
-    $ cd 3DEP
-	$ git clone https://github.com/cmspeed/OT_3DEP_Workflows
+```bash
+cd 3DEP
+git clone https://github.com/cmspeed/OT_3DEP_Workflows
+```
 
 Anaconda is recommended for Python package installation and management. Package versions in Anaconda are managed by the package management system *conda*. Anaconda installers for MacOS/Linux/Windows can be downloaded from https://docs.anaconda.com/anaconda/install/. Follow the instructions to install the appropriate version of Anaconda.
 
 After installing Anaconda, create a conda virtual environment with the required dependencies (contained in `environement.yml`). Note: Exectuting the following command will automatically create the conda environement with name `3dep` and all of the required dependencies installed. If you would prefer a different name, replace `3dep` with another name in the following command:
 
-	$ conda env create -n 3dep --file environment.yml
+```bash
+conda env create -n 3dep --file environment.yml
+```
 
 Activate the conda environment with all of the necessary dependencies installed. 
-	
-	$ conda activate 3dep
+
+```bash
+conda activate 3dep
+```
 
 Now, launch the chosen Jupyter Notebook. If unsure how to launch a Notebook, refer to this guide (https://jupyter-notebook-beginner-guide.readthedocs.io/en/latest/execute.html). 
 
