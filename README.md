@@ -62,22 +62,22 @@ Now, launch the chosen Jupyter Notebook. If unsure how to launch a Notebook, ref
 
 ## USGS 3DEP Jupyter Notebooks
 
-1. [Programmatic USGS 3DEP point cloud access, processing, and DTM/DSM creation/visualization for user-defined AOI](https://github.com/cmspeed/OT_3DEP_Workflows/blob/main/notebooks/3DEP_pointcloud_access_processing_DTM_creation.ipynb)<br/>
+1. [Accessing, processing, and visualizing 3DEP lidar point cloud data and derivative products for user-defined AOI](https://github.com/cmspeed/OT_3DEP_Workflows/blob/main/notebooks/3DEP_pointcloud_access_processing_DTM_creation.ipynb)<br/>
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/cmspeed/OT_3DEP_Workflows/blob/main/notebooks/3DEP_pointcloud_access_processing_DTM_creation.ipynb)<br/>
 
-2. [Programmatic USGS 3DEP point cloud access, processing, and DTM/DSM creation/visualization for USGS 7.5' Quadrangles](https://github.com/cmspeed/OT_3DEP_Workflows/blob/main/notebooks/Programmatically_accessing_3DEP_data_using_USGS_7.5_Quadrangles.ipynb)<br/>
+2. [Accessing, processing, and visualizing 3DEP lidar point cloud data and derivative products for USGS 7.5' Quadrangles](https://github.com/cmspeed/OT_3DEP_Workflows/blob/main/notebooks/Programmatically_accessing_3DEP_data_using_USGS_7.5_Quadrangles.ipynb)<br/>
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/cmspeed/OT_3DEP_Workflows/blob/main/notebooks/Programmatically_accessing_3DEP_data_using_USGS_7.5_Quadrangles.ipynb)
 
-3. [Programmatic USGS 3DEP point cloud access, processing, and DTM/DSM creation/visualization for USGS Watersheds (12- and 14-digit HUCs)](https://github.com/cmspeed/OT_3DEP_Workflows/blob/main/notebooks/3DEP_data_for_watershedboundaries.ipynb)<br/>
+3. [Accessing, processing and visualizing 3DEP point cloud data and derivative products for USGS 12- and 14-digit Hydrologic Unit Code (HUC) Boundaries](https://github.com/cmspeed/OT_3DEP_Workflows/blob/main/notebooks/3DEP_data_for_watershedboundaries.ipynb)<br/>
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/cmspeed/OT_3DEP_Workflows/blob/main/notebooks/3DEP_data_for_watershedboundaries.ipynb)
 
-4. [Build a Canopy Height Model with USGS 3DEP data for user-defined AOI](https://github.com/cmspeed/OT_3DEP_Workflows/blob/main/notebooks/Making_a_Canopy_Height_Model_Using_USGS_3DEP_Data.ipynb)<br/>
+4. [Making canopy height models (CHMs) with 3DEP point cloud data and derivative products for user-defined AOI](https://github.com/cmspeed/OT_3DEP_Workflows/blob/main/notebooks/Making_a_Canopy_Height_Model_Using_USGS_3DEP_Data.ipynb)<br/>
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/cmspeed/OT_3DEP_Workflows/blob/main/notebooks/Making_a_Canopy_Height_Model_Using_USGS_3DEP_Data.ipynb)
 
-5. [Topographic differencing with USGS 3DEP data for user-defined AOI](https://github.com/cmspeed/OT_3DEP_Workflows/blob/main/notebooks/Topographic_differencing_3DEP_and_OT_lidar_data.ipynb)<br/>
+5. [Topographic differencing with 3DEP point cloud data and derivative products for user-defined AOI](https://github.com/cmspeed/OT_3DEP_Workflows/blob/main/notebooks/Topographic_differencing_3DEP_and_OT_lidar_data.ipynb)<br/>
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/cmspeed/OT_3DEP_Workflows/blob/main/notebooks/Topographic_differencing_3DEP_and_OT_lidar_data.ipynb)
 
-6. [Colorize USGS 3DEP point cloud data with NAIP imagery](https://github.com/cmspeed/OT_3DEP_Workflows/blob/main/notebooks/colorizePC.ipynb)<br/>
+6. [Colorizing 3DEP point cloud data with 1m NAIP imagery for user-defined AOI](https://github.com/cmspeed/OT_3DEP_Workflows/blob/main/notebooks/colorizePC.ipynb)<br/>
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/cmspeed/OT_3DEP_Workflows/blob/main/notebooks/colorizePC.ipynb)
 
 ## References
