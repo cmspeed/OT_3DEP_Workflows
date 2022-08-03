@@ -1,7 +1,9 @@
 # Workflows for Programmatically Accessing, Processing, and Visualizing USGS 3DEP Data
 
+![workflow_examples](docs/imgs/examples.png)
+
 ## Background
-The 3D Elevation Program (3DEP), managed by the U.S. Geological Survey (USGS), is acquiring quality level 2 or better light detecting and ranging (lidar) data over the conterminous United States, Hawaii, and US Territories to meet the growing need for high-resolution 3-D representations of Earth's surface, vegetation, and other constructed features. Since its operational start in 2015, over 1800 3DEP projects have been acquired, amounting to > 42 trillion lidar points covering an area > 6.5 million sq. km. The resulting data are publicly and freely available in Entwine Point Tile (EPT) format hosted in Amazon Web Services (AWS) S3 bucket. While the volume of available 3DEP lidar data is substantial, documented workflows and best practices for most effectively utilizing these cloud-hosted resources are underdeveloped. <a href="https://opentopography.org/">OpenTopography</a>, supported by the USGS <a href="https://www.usgs.gov/centers/community-for-data-integration-cdi">Community for Data Integration (CDI)</a>, is developing well-documented and customizable Jupyter Notebook-based Python workflows for programmatically accessing, processing, and visualizing 3DEP data products for a variety of use-cases geared toward USGS applications and for users of point cloud data across the geospatial community. 
+The 3D Elevation Program (3DEP), managed by the U.S. Geological Survey (USGS), is acquiring high-quality light detecting and ranging (lidar) data over the conterminous United States, Hawaii, and US Territories to meet the growing need for high-resolution 3-D representations of Earth's surface, vegetation, and other constructed features. To date, over 1800 unique 3DEP projects have been acquired, amounting to more than 42 trillion lidar points covering an area greater than 6.5 million sq. km. The resulting data are publicly and freely available in Entwine Point Tile (EPT) format hosted in an Amazon Web Services (AWS) S3 bucket. While the volume of available 3DEP lidar data is substantial, documented workflows and best practices for most effectively utilizing these cloud-hosted resources are underdeveloped. <a href="https://opentopography.org/">OpenTopography</a>, supported by the USGS <a href="https://www.usgs.gov/centers/community-for-data-integration-cdi">Community for Data Integration (CDI)</a>, is developing well-documented and customizable Jupyter Notebook-based Python workflows for programmatically accessing, processing, and visualizing 3DEP data products for a variety of use-cases geared toward USGS applications and for users of point cloud data across the geospatial community. 
 
 ## Contents
 This repository contains a suite of Python workflows for programmatically accessing, processing, and visualizing U.S. Geological Survey (USGS) 3D Elevation Program (3DEP) lidar point cloud data and creating derivative products (DEMs, topographic difference maps, colorized point clouds, etc.). The workflows are in Jupyter Notebook format, with each notebook documenting a standalone workflow designed for a specific use-case. This suite of Jupyter Notebooks was developed in collaboration with USGS and funded by a USGS Community for Data Integration(CDI) grant awarded up for the project <a href="https://www.usgs.gov/centers/community-for-data-integration-cdi/science/enhancing-usability-3dep-data-and-web-services"> *"Enhancing usability of 3DEP data and web services with Jupyter notebooks"*</a>. Therefore, several of the notebooks provide workflows designed to address specific needs of the USGS. However, these workflows are designed for any users interested in using 3DEP lidar datasets and for those who may not have extensive experience. Each notebook will run with no additional user modification, but can be customized for specific use-cases and based on the user's. Please direct questions, comments, or suggestion related to these workflows to Cole Speed (<cole.speed@beg.utexas.edu>). 
@@ -28,18 +30,12 @@ To experiment and run one of the below Jupyter Notebooks on Google Colab click t
 
 **Option 2: Local Installation and Execution**
 
-If you would like to run the Jupyter Notebook on your local machine, execute the following commands in your terminal or commandline (does not vary between MacOS, Linux, or Windows):
+If you would like to run the Jupyter Notebook on your local machine, follow these steps:
 
-Make a new directory where the 3DEP Jupyter Notebooks (and all 3DEP data, if desired) will be saved. In this case, the directory will be called `3DEP`.
-
+Make a new directory where the 3DEP Jupyter Notebooks (and all 3DEP data, if desired) will be saved. In this case, the directory will be called `3DEP`. Change into the new directory and git clone the Github repository containing the Jupyter Notebooks and other relevant files to your local file system.
 
 ```bash
 mkdir 3DEP
-```
-
-Change into the new directory and git clone the Github repository containing the Jupyter Notebooks and other relevant files to your local file system.
-
-```bash
 cd 3DEP
 git clone https://github.com/cmspeed/OT_3DEP_Workflows
 ```
