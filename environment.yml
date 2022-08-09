@@ -3,13 +3,11 @@ channels:
   - conda-forge
   - defaults
 dependencies:
-  - pdal
+  - gdal
   - geopandas
   - ipyleaflet
   - matplotlib
-  - nb_conda
-  - python-pdal
-  - requests
-  - gdal
+  - pdal
   - pyproj
-prefix: /Users/cole/anaconda3/envs/3dep
+  - requests
+  - rioxarray

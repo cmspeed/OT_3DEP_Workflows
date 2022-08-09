@@ -1,7 +1,8 @@
-pdal
 gdal
 geopandas
 ipyleaflet
 matplotlib
-requests
+pdal
 pyproj
+requests
+rioxarray
