@@ -1,5 +1,11 @@
 # Workflows for Programmatically Accessing, Processing, and Visualizing USGS 3DEP Data
 
+
+[![NSF-1948997](https://img.shields.io/badge/NSF-1948997-blue.svg)](https://nsf.gov/awardsearch/showAward?AWD_ID=1948997) 
+[![NSF-1948994](https://img.shields.io/badge/NSF-1948994-blue.svg)](https://nsf.gov/awardsearch/showAward?AWD_ID=1948994)
+[![NSF-1948857](https://img.shields.io/badge/NSF-1948857-blue.svg)](https://nsf.gov/awardsearch/showAward?AWD_ID=1948857)
+
+
 ![workflow_examples](docs/img/example.png)
 
 ## Background
@@ -20,13 +26,12 @@ Two options exist for accessing and using these notebooks. (1) Install the requi
 * python-pdal
 * Requests
 * Pyproj
-* nb_conda
 
 **Option 1 (Suggested): Google Collaboratory Installation and Execution**
 
-For ease-of-use, it is suggested to launch and execute these notebooks on Google Collaboratory (Colab, for short), Google's Cloud Platform. Dependencies will be installed on a virtual machine on Google's cloud servers and the code will be executed directly in your browser! A major benefit of this is that you will have direct access to Google high-end CPU/GPUs and will not have to install any dependencies locally. All deliverables will be saved to your personal Google Drive.
+For ease-of-use, it is suggested to launch and execute these notebooks on the Google Colaboratory (Colab, for short) cloud platform. Dependencies will be installed on a virtual machine on Google's cloud servers and the code will be executed directly in the browser. A major benefit of this is that you will have direct access to Google high-end CPU/GPUs and will not have to install any dependencies locally. All deliverables will be saved to your personal Google Drive.
 
-To experiment and run one of the below Jupyter Notebooks on Google Colab click the [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)] badge beneath the corresponding Jupyter notebook. 
+To experiment and run one of the below Jupyter Notebooks on Google Colab click the [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)] badge beneath the corresponding Jupyter notebook below. 
 
 **Option 2: Local Installation and Execution**
 
@@ -58,26 +63,31 @@ Now, launch the chosen Jupyter Notebook. If unsure how to launch a Notebook, ref
 
 ## USGS 3DEP Jupyter Notebooks
 
-1. [Accessing, processing, and visualizing 3DEP lidar point cloud data and derivative products for user-defined AOI](https://github.com/cmspeed/OT_3DEP_Workflows/blob/main/notebooks/3DEP_pointcloud_access_processing_DTM_creation.ipynb)<br/>
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/cmspeed/OT_3DEP_Workflows/blob/main/notebooks/3DEP_pointcloud_access_processing_DTM_creation.ipynb)<br/>
+1. [Accessing, Processing, and Visualizing USGS 3D Elevation Program (3DEP) Lidar Data for a User-Defined Area of Interest](https://github.com/cmspeed/OT_3DEP_Workflows/blob/main/notebooks/01_3DEP_access_and_processing-MakeDEM.ipynb)<br/>
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/cmspeed/OT_3DEP_Workflows/blob/main/notebooks/01_3DEP_access_and_processing-MakeDEM.ipynb)<br/>
 
-2. [Accessing, processing, and visualizing 3DEP lidar point cloud data and derivative products for USGS 7.5' Quadrangles](https://github.com/cmspeed/OT_3DEP_Workflows/blob/main/notebooks/Programmatically_accessing_3DEP_data_using_USGS_7.5_Quadrangles.ipynb)<br/>
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/cmspeed/OT_3DEP_Workflows/blob/main/notebooks/Programmatically_accessing_3DEP_data_using_USGS_7.5_Quadrangles.ipynb)
+2. [Accessing, Processing, and Visualizing USGS 3D Elevation Program (3DEP) Lidar Data for USGS 7.5' Quadrangles](https://github.com/cmspeed/OT_3DEP_Workflows/blob/main/notebooks/02_3DEP_access_and_processing-USGS7.5'Quadrangles.ipynb)<br/>
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/cmspeed/OT_3DEP_Workflows/blob/main/notebooks/02_3DEP_access_and_processing-USGS7.5'Quadrangles.ipynb)
 
-3. [Accessing, processing and visualizing 3DEP point cloud data and derivative products for USGS 12- and 14-digit Hydrologic Unit Code (HUC) Boundaries](https://github.com/cmspeed/OT_3DEP_Workflows/blob/main/notebooks/3DEP_data_for_watershedboundaries.ipynb)<br/>
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/cmspeed/OT_3DEP_Workflows/blob/main/notebooks/3DEP_data_for_watershedboundaries.ipynb)
+3. [Accessing, Processing, and Visualizing USGS 3D Elevation Program (3DEP) Lidar Data for USGS Hydrologic Units](https://github.com/cmspeed/OT_3DEP_Workflows/blob/main/notebooks/03_3DEP_access_and_processing-USGSWatersheds.ipynb)<br/>
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/cmspeed/OT_3DEP_Workflows/blob/main/notebooks/03_3DEP_access_and_processing-USGSWatersheds.ipynb)
 
-4. [Making canopy height models (CHMs) with 3DEP point cloud data and derivative products for user-defined AOI](https://github.com/cmspeed/OT_3DEP_Workflows/blob/main/notebooks/Making_a_Canopy_Height_Model_Using_USGS_3DEP_Data.ipynb)<br/>
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/cmspeed/OT_3DEP_Workflows/blob/main/notebooks/Making_a_Canopy_Height_Model_Using_USGS_3DEP_Data.ipynb)
+4. [Producing a Canopy Height Model (CHM) Using USGS 3D Elevation Program (3DEP) Lidar Data for a User-Defined Area of Interest](https://github.com/cmspeed/OT_3DEP_Workflows/blob/main/notebooks/04_3DEP_access_and_processing-CanopyHeightModel.ipynb)<br/>
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/cmspeed/OT_3DEP_Workflows/blob/main/notebooks/04_3DEP_access_and_processing-CanopyHeightModel.ipynb)
 
-5. [Topographic differencing with 3DEP point cloud data and derivative products for user-defined AOI](https://github.com/cmspeed/OT_3DEP_Workflows/blob/main/notebooks/Topographic_differencing_3DEP_and_OT_lidar_data.ipynb)<br/>
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/cmspeed/OT_3DEP_Workflows/blob/main/notebooks/Topographic_differencing_3DEP_and_OT_lidar_data.ipynb)
-
-6. [Colorizing 3DEP point cloud data with 1m NAIP imagery for user-defined AOI](https://github.com/cmspeed/OT_3DEP_Workflows/blob/main/notebooks/colorizePC.ipynb)<br/>
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/cmspeed/OT_3DEP_Workflows/blob/main/notebooks/colorizePC.ipynb)
+5. [ Topographic Differencing of USGS 3D Elevation Program (3DEP) Lidar Datasets for a User-Defined Area of Interest](https://github.com/cmspeed/OT_3DEP_Workflows/blob/main/notebooks/05_3DEP_access_and_processing-TopographicDifferencing.ipynb)<br/>
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/cmspeed/OT_3DEP_Workflows/blob/main/notebooks/05_3DEP_access_and_processing-TopographicDifferencing.ipynb)
 
 ## References
 
-[![NSF-1948997](https://img.shields.io/badge/NSF-1948997-blue.svg)](https://nsf.gov/awardsearch/showAward?AWD_ID=1948997) 
-[![NSF-1948994](https://img.shields.io/badge/NSF-1948994-blue.svg)](https://nsf.gov/awardsearch/showAward?AWD_ID=1948994)
-[![NSF-1948857](https://img.shields.io/badge/NSF-1948857-blue.svg)](https://nsf.gov/awardsearch/showAward?AWD_ID=1948857)
+- This work was funded by the <a href="https://www.usgs.gov/centers/community-for-data-integration-cdi/">USGS Community for Data Integration (CDI)</a> and by the National Science Foundation (NSF) award numbers <a href="https://nsf.gov/awardsearch/showAward?AWD_ID=1948897">1948997</a>, <a href="https://nsf.gov/awardsearch/showAward?AWD_ID=1948894">1948994</a>, <a href="https://nsf.gov/awardsearch/showAward?AWD_ID=1948857">1948857</a>.
+
+- The USGS 3DEP Lidar Point Cloud Data are accesbile in Entwine Point Tile (EPT) format from this <a href="https://registry.opendata.aws/usgs-lidar/">Amazon Web Services S3 Bucket</a>.
+
+- The USGS hydrologic unit boundaries are accessed via the <a href="https://hydro.nationalmap.gov/arcgis/rest/services/wbd/MapServer">USGS Watershed Dataset Map Service</a>.
+
+- The USGS 7.5' quadrangle boundaries are accessed via the <a href="https://carto.nationalmap.gov/arcgis/rest/services/map_indices/MapServer"> USGS Map Indicies Service</a>.
+
+- Documentation for open-source Python libararies used by these workflows include <a href="https://pdal.dev/en/latest/">PDAL</a> and <a href="https://gdal.org/">GDAL</a>.
+
+
