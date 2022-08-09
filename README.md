@@ -1,6 +1,6 @@
 # Workflows for Programmatically Accessing, Processing, and Visualizing USGS 3DEP Data
 
-![workflow_examples](docs/imgs/examples.png)
+![workflow_examples](docs/img/examples.png)
 
 ## Background
 The 3D Elevation Program (3DEP), managed by the U.S. Geological Survey (USGS), is acquiring high-quality light detecting and ranging (lidar) data over the conterminous United States, Hawaii, and US Territories to meet the growing need for high-resolution 3-D representations of Earth's surface, vegetation, and other constructed features. To date, over 1800 unique 3DEP projects have been acquired, amounting to more than 42 trillion lidar points covering an area greater than 6.5 million sq. km. The resulting data are publicly and freely available in Entwine Point Tile (EPT) format hosted in an Amazon Web Services (AWS) S3 bucket. While the volume of available 3DEP lidar data is substantial, documented workflows and best practices for most effectively utilizing these cloud-hosted resources are underdeveloped. <a href="https://opentopography.org/">OpenTopography</a>, supported by the USGS <a href="https://www.usgs.gov/centers/community-for-data-integration-cdi">Community for Data Integration (CDI)</a>, is developing well-documented and customizable Jupyter Notebook-based Python workflows for programmatically accessing, processing, and visualizing 3DEP data products for a variety of use-cases geared toward USGS applications and for users of point cloud data across the geospatial community. 
