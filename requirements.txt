@@ -1,9 +1,9 @@
-  - gdal
-  - geopandas
-  - ipyleaflet
-  - matplotlib
-  - pdal
-  - python-pdal
-  - pyproj
-  - requests
-  - rioxarray
+gdal
+geopandas
+ipyleaflet
+matplotlib
+pdal
+python-pdal
+pyproj
+requests
+rioxarray
