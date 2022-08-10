@@ -50,6 +50,7 @@ Anaconda is recommended for Python package installation and management. Package 
 After installing Anaconda, create a conda virtual environment with the required dependencies (contained in `environment.yml`). Note: Exectuting the following command will automatically create the conda environement with name `3dep` and all of the required dependencies installed. If you would prefer a different name, replace `3dep` with another name in the following command:
 
 ```bash
+cd OT_3DEP_Workflows
 conda env create -n 3dep --file environment.yml
 ```
 
