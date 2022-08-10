@@ -1,4 +1,4 @@
-# Workflows for Programmatically Accessing, Processing, and Visualizing USGS 3DEP Data
+# Jupyter Notebook-based Workflows for Programmatically Accessing, Processing, and Visualizing USGS 3DEP Lidar Data
 
 
 [![NSF-1948997](https://img.shields.io/badge/NSF-1948997-blue.svg)](https://nsf.gov/awardsearch/showAward?AWD_ID=1948997) 
