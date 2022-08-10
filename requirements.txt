@@ -3,7 +3,6 @@ geopandas
 ipyleaflet
 matplotlib
 pdal
-python-pdal
 pyproj
 requests
 rioxarray
