@@ -99,7 +99,7 @@ OpenTopography is supported by the National Science Foundation (NSF) under Award
 
 ## Additional Resources
 
-- The USGS 3DEP Lidar Point Cloud Data are accesbile in Entwine Point Tile (EPT) format from this <a href="https://registry.opendata.aws/usgs-lidar/">Amazon Web Services S3 Bucket</a>.
+- The USGS 3DEP Lidar Point Cloud Data are accessible in Entwine Point Tile (EPT) format from this <a href="https://registry.opendata.aws/usgs-lidar/">Amazon Web Services S3 Bucket</a>.
 
 - The USGS hydrologic unit boundaries are accessed via the <a href="https://hydro.nationalmap.gov/arcgis/rest/services/wbd/MapServer">USGS Watershed Dataset Map Service</a>.
 
