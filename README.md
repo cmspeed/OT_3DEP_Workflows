@@ -5,10 +5,9 @@
 # Reproducible scientific workflows for accessing, processing, and visualizing USGS 3DEP lidar data
 The U.S. Geological Survey (USGS) 3D Elevation Program (3DEP) is acquiring high-quality light detecting and ranging (lidar) data over the conterminousUnited States, Hawaii, and US Territories to meet the growing need for high-resolution 3-D representations of Earth's surface, vegetation, and other constructed features.
 
-This repository contains a suite of customizable and reproducible workflows implemented as Jupyter Notebooks for programmatically accessing, processing, and visualizing USGS 3DEP lidar point cloud data and creating a range of derivative products (DEMs, topographic difference maps, canopy height models, and colorized point clouds). Each notebook is designed to address a specific use case/geospatial application and leverages open source geospatial software (e.g. PDAL,GDAL) along with detailed documentation that lower the barrier of entry for users with minimal programming experience.
+This repository contains a suite of customizable and reproducible workflows implemented as Jupyter Notebooks for programmatically accessing, processing, and visualizing USGS 3DEP lidar point cloud data and creating a range of derivative products (DEMs, topographic difference maps, canopy height models, and colorized point clouds). Each notebook is designed to address a specific use case/geospatial application and leverages open source geospatial software (e.g. PDAL,GDAL) along with detailed documentation that lower the barrier of entry for users with minimal programming experience. 
 
 ![workflow_examples](docs/img/example_workflows.png)
-
 
 ## Installation
 The Jupyter Notebooks can be run locally or on the <a href="https://colab.research.google.com/">Google Colaboratory</a> cloud platform (Requires Google account with Google Drive access).
