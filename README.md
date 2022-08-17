@@ -89,7 +89,7 @@ Once you are viewing the notebook, on the upper toolbar click `"Kernel" > "Chang
 
 7. [Generate colorized (RGB) point clouds using USGS 3D Elevation Program (3DEP) lidar data and National Agriculture Imagery Program (NAIP) Imagery](https://github.com/cmspeed/OT_3DEP_Workflows/blob/main/notebooks/07_3DEP_Generate_Colorized_PointClouds.ipynb)[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/cmspeed/OT_3DEP_Workflows/blob/main/notebooks/07_3DEP_Generate_Colorized_PointClouds.ipynb)
 
-## Issues and Suggested Feature Improvements
+## Issues and Feature Improvements
 
 Reporting issues and/or providing suggestions for improving these workflows or developing new ones is highly encouranged. Issues or suggested feature improvements may be submitted as an <a href="https://github.com/cmspeed/OT_3DEP_Workflows/issues">issue</a> or by email to <a href="https://opentopography.org/contact">OpenTopography Support</a>.   
 
