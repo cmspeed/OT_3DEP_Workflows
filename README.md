@@ -3,7 +3,7 @@
 [![NSF-1948857](https://img.shields.io/badge/NSF-1948857-blue.svg)](https://nsf.gov/awardsearch/showAward?AWD_ID=1948857)
 
 # Reproducible scientific workflows for accessing, processing, and visualizing USGS 3DEP lidar data
-The U.S. Geological Survey (USGS) 3D Elevation Program (3DEP) is acquiring high-quality light detecting and ranging (lidar) data over the conterminousUnited States, Hawaii, and US Territories to meet the growing need for high-resolution 3-D representations of Earth's surface, vegetation, and other constructed features.
+The U.S. Geological Survey 3D Elevation Program (3DEP) is acquiring high-quality light detecting and ranging (lidar) data over the conterminous United States, Hawaii, and US Territories to meet the growing need for high-resolution 3-D representations of Earth's surface, vegetation, and other constructed features.
 
 This repository contains a suite of customizable and reproducible workflows implemented as Jupyter Notebooks for programmatically accessing, processing, and visualizing USGS 3DEP lidar point cloud data and creating a range of derivative products (DEMs, topographic difference maps, canopy height models, and colorized point clouds). Each notebook is designed to address a specific use case/geospatial application and leverages open source geospatial software (e.g. PDAL,GDAL) along with detailed documentation that lower the barrier of entry for users with minimal programming experience. 
 
@@ -24,9 +24,9 @@ The Jupyter Notebooks can be run locally or on the <a href="https://colab.resear
 
 **Option 1 (Recommended): Google Colaboratory Installation**
 
-For quickly getting started and ease-of-use, it is recommended to launch and execute these notebooks on the Google Colaboratory (Colab, for short) cloud platform. Dependencies will be installed on a virtual enviroment on Google's cloud servers and the code will be executed directly in the browser. A major benefit is direct access to Google high-end CPU/GPUs and not having to install any software dependencies locally. All products will be saved to your personal Google Drive.
+For quickly getting started and ease-of-use, it is recommended to launch and execute these notebooks on the Google Colaboratory (Colab, for short) cloud platform. Dependencies will be installed on a virtual environment on Google's cloud servers and the code will be executed directly in the browser. A major benefit is direct access to Google high-end CPU/GPUs and not having to install any software dependencies locally. All products will be saved to your personal Google Drive.
 
-To experiment and run one of the below Jupyter Notebooks on Google Colab click the ![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg) badge beneath the corresponding Jupyter notebook below. 
+To experiment and run one of the below Jupyter Notebooks on Google Colab click the ![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg) badge beneath the corresponding Jupyter Notebook in the **USGS 3DEP Jupyter Notebooks** section, below.
 
 **Option 2: Local Installation**
 
@@ -63,7 +63,7 @@ After activating the newly created environment (in this case called '3dep'), ins
 pip install --user ipykernel
 ```
 
-Next, add the virtual environment you just created to Jupyter (assuming that the conda environment is called '3dep'. If not replace '3dep' with the name of your newly created environment in the command below:
+Next, add the virtual environment you just created to Jupyter. If different, replace '3dep' with the name of your newly created environment in the command below:
 
 ```bash
 python -m ipykernel install --user --name=3dep
@@ -89,10 +89,13 @@ Once you are viewing the notebook, on the upper toolbar click `"Kernel" > "Chang
 
 7. [Generate colorized (RGB) point clouds using USGS 3D Elevation Program (3DEP) lidar data and National Agriculture Imagery Program (NAIP) Imagery](https://github.com/cmspeed/OT_3DEP_Workflows/blob/main/notebooks/07_3DEP_Generate_Colorized_PointClouds.ipynb)[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/cmspeed/OT_3DEP_Workflows/blob/main/notebooks/07_3DEP_Generate_Colorized_PointClouds.ipynb)
 
+## Issues and Suggested Feature Improvements
+
+Issues and/or suggestions for improving these workflows or developing new ones are highly encouranged and may be submitted as an <a href="https://github.com/cmspeed/OT_3DEP_Workflows/issues">issue</a> or by email to <a href="https://opentopography.org/contact">OpenTopography Support</a>.   
 
 ## Funding 
 
-Funding for the creation and distribution of these Jupyter Notebook-based workflows was provided as by the <a href="https://www.usgs.gov/centers/community-for-data-integration-cdi">USGS Community for Data Integration (CDI)</a> through the funded grant <a href="https://www.usgs.gov/centers/community-for-data-integration-cdi/science/enhancing-usability-3dep-data-and-web-services"> *Enhancing usability of 3DEP data and web services with Jupyter notebooks*</a>. 
+Funding for the creation and distribution of these Jupyter Notebook-based workflows was provided as by the <a href="https://www.usgs.gov/centers/community-for-data-integration-cdi">USGS Community for Data Integration (CDI)</a> through the funded grant <a href="https://www.usgs.gov/centers/community-for-data-integration-cdi/science/enhancing-usability-3dep-data-and-web-services"> *Enhancing usability of 3DEP data and web services with Jupyter Notebooks*</a>. 
 
 OpenTopography is supported by the National Science Foundation (NSF) under Award Numbers <a href="https://nsf.gov/awardsearch/showAward?AWD_ID=1948997">1948997</a>, <a href="https://nsf.gov/awardsearch/showAward?AWD_ID=1948994">1948994</a> & <a href ="https://nsf.gov/awardsearch/showAward?AWD_ID=1948857">1948857</a>.
 
