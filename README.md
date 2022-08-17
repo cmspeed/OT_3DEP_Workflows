@@ -91,7 +91,7 @@ Once you are viewing the notebook, on the upper toolbar click `"Kernel" > "Chang
 
 ## Issues and Suggested Feature Improvements
 
-Issues and/or suggestions for improving these workflows or developing new ones are highly encouranged and may be submitted as an <a href="https://github.com/cmspeed/OT_3DEP_Workflows/issues">issue</a> or by email to <a href="https://opentopography.org/contact">OpenTopography Support</a>.   
+Reporting issues and/or providing suggestions for improving these workflows or developing new ones is highly encouranged. Issues or suggested feature improvements may be submitted as an <a href="https://github.com/cmspeed/OT_3DEP_Workflows/issues">issue</a> or by email to <a href="https://opentopography.org/contact">OpenTopography Support</a>.   
 
 ## Funding 
 
