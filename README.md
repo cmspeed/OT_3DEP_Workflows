@@ -24,7 +24,7 @@ The Jupyter Notebooks can be run locally or on the <a href="https://colab.resear
 
 **Option 1 (Recommended): Google Colaboratory Installation**
 
-For quickly getting started and ease-of-use, it is recommended to launch and execute these notebooks on the Google Colaboratory (Colab, for short) cloud platform. Dependencies will be installed on a virtual environment on Google's cloud servers and the code will be executed directly in the browser. A major benefit is direct access to Google high-end CPU/GPUs and not having to install any software dependencies locally. All products will be saved to your personal Google Drive.
+For quickly getting started and ease-of-use, it is recommended to launch and execute these notebooks on the Google Colaboratory ("Colab") cloud platform. Dependencies will be installed on a virtual environment on Google's cloud servers and the code will be executed in the browser. A major benefit is direct access to Google high-end CPU/GPUs and avoiding software dependency issues. All products will be saved to your personal Google Drive. Google Colab users are allocated 12GB of RAM (which can be upgraded to 25GB with Colab Pro). User's are advised that accessing and processing large point clouds (>200,000,000 points) may consume this RAM allocation and cause the runtime to fail. Those seeking to process large quantities of data may benefit from running the notebooks locally (Option 2). 
 
 To experiment and run one of the below Jupyter Notebooks on Google Colab click the ![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg) badge beneath the corresponding Jupyter Notebook in the **USGS 3DEP Jupyter Notebooks** section, below.
 
