@@ -55,23 +55,7 @@ Activate the conda environment with all of the necessary dependencies installed.
 conda activate 3dep
 ```
 
-To use the Ipython kernel in this newly created conda environment, it will need to be installed manually.
-
-After activating the newly created environment (in this case called '3dep'), install the IPython kernel for Jupyter:
-
-```bash
-pip install --user ipykernel
-```
-
-Next, add the virtual environment you just created to Jupyter. If different, replace '3dep' with the name of your newly created environment in the command below:
-
-```bash
-python -m ipykernel install --user --name=3dep
-```
-
 Now, launch the chosen Jupyter Notebook. If unsure how to launch a Notebook, refer to this guide (https://jupyter-notebook-beginner-guide.readthedocs.io/en/latest/execute.html). 
-
-Once you are viewing the notebook, on the upper toolbar click `"Kernel" > "Change Kernel" > "3dep"` (or the name of your newly created conda environment.
 
 ## USGS 3DEP Jupyter Notebooks
 
