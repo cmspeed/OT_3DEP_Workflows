@@ -4,13 +4,12 @@ channels:
 dependencies:
   - gdal
   - geopandas
-  - jupyter
-  - matplotlib
+  - ipyleaflet
+  - matplotlib<3.6
+  - notebook
   - pdal
   - pip
   - python-pdal
   - pyproj
   - requests
   - rioxarray
-  - pip:
-    - ipyleaflet==0.16.0
