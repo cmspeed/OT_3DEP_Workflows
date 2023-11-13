@@ -5,7 +5,7 @@ dependencies:
   - gdal
   - geopandas
   - ipyleaflet
-  - matplotlib<3.6
+  - matplotlib
   - notebook
   - pdal
   - pip

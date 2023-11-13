@@ -1,6 +1,6 @@
 geopandas
 ipyleaflet
-matplotlib<3.6
+matplotlib
 pyproj
 requests
 rioxarray
