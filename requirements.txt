@@ -1,7 +1,6 @@
 geopandas
 ipyleaflet
 matplotlib
-numpy>=2.0
 pyproj
 requests
 rioxarray<=0.13.3
