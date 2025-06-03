@@ -95,4 +95,4 @@ OpenTopography is supported by the National Science Foundation (NSF) under Award
 
 - The <a href="https://www.unavco.org/">UNAVCO</a> Student Internship Program (<a href="https://www.unavco.org/education/student-internships/unavco-student-internship-program/">USIP</a>).
 
-- Access USGS 3DEP via the <a href="https://portal.opentopography.org/datasets">OpenTopography</a> portal (currently restricted to academic use).
+- Access USGS 3DEP via the <a href="https://portal.opentopography.org/datasets">OpenTopography</a> portal.
